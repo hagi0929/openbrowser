@@ -1,0 +1,38 @@
+.Home {
+  text-align: center;
+}
+
+.Home-header {
+  background: linear-gradient(180deg, rgba(227, 233, 245, 0.779076) 0%, #C4D3E5 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  place-items: center;
+}
+
+.applicationContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: calc(1000px + 10vw);
+  width: calc(100% - 2em);
+  height: 100vh;
+}
+
+.left {
+  width: 100%;
+  background: white;
+  color: black;
+  max-width: calc(250px + 3vw);
+}
+
+.right {
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
