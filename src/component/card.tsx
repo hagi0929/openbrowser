@@ -4,6 +4,7 @@ import { MenuButton } from "./button";
 import { Logo } from "./assets";
 import styled from "styled-components";
 
+
 function MenuBarLeft() {
   const FLogo = styled(Logo)`
     width: 200px;
