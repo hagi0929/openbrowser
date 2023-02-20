@@ -1,5 +1,4 @@
 .headerWrapper {
-  padding-top: 3em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,11 +10,10 @@
     display: flex;
     flex-direction: row-reverse;
     width: max-content;
+
     //flex-basis: calc((100% - 30em) / 2);
     flex-grow: 1;
     flex-basis: 0;
-
-
 
   }
 
