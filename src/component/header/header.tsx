@@ -3,6 +3,7 @@ import styled from "styled-components";
 import "./header.scss"
 import LogoFull from "../../component/etc/logo";
 import Card from "../../style/Component.Style";
+import UserBadge from "../etc/module";
 
 // write styled component for header bar search bar
 
@@ -16,7 +17,7 @@ function Header() {
         <input type="text" className={"header__search__input"} />
       </Card>
       <div className="header__profile">
-        s
+        <UserBadge/>
       </div>
     </div>
   );

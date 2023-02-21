@@ -1,0 +1,45 @@
+.UserBadge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .UserBadge__avatar {
+    //set ratio 1:1
+    object-fit: cover;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    border: #C6CEFB50 solid 1px;
+  }
+
+  .UserBadge__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 1em;
+
+    .UserBadge__text__name {
+      display: flex;
+      flex-direction: row;
+      align-content: flex-start;
+      width: 100%;
+      font-size: 1.2em;
+      font-weight: 700;
+      background: linear-gradient(267.84deg, #30AEED 1.56%, #FFFFFF 45.95%, #E94794 95.62%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+
+    .UserBadge__text__id {
+      display: flex;
+      flex-direction: row;
+      align-content: flex-start;
+      width: 100%;
+      font-size: 0.8em;
+      color: #C6CEF550;
+    }
+  }
+}

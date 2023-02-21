@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../../style/Component.Style";
 import { NavLink } from "react-router-dom";
 import { Icon } from "@iconify/react";
+import "./menuLeft.scss";
 
 function MenuLeft() {
   return (

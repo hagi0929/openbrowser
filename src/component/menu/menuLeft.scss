@@ -1,0 +1,42 @@
+.App-content__left__menu-bar {
+  position: fixed;
+  font-size: 1.6rem;
+  padding: 2rem;
+  width: 12rem;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: space-between;
+  gap: 0.8rem;
+
+  .App-content__left__menu-bar__element {
+
+    color: inherit;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+
+  .active {
+    opacity: 1;
+  }
+
+  .App-content__left__menu-bar__element__icon {
+    margin-top: -2px;
+    font-size: 1em;
+    color: inherit;
+  }
+
+  .App-content__left__menu-bar__element__text {
+    font-size: 0.8em;
+    color: inherit;
+    font-weight: 600;
+  }
+}
