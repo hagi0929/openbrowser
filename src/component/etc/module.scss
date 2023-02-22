@@ -43,3 +43,48 @@
     }
   }
 }
+
+.ArticleCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  gap: 1.5em;
+
+  .ArticleCard__header {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+
+  }
+
+  .ArticleCard__content {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 0 1em 0 1em;
+    color: white;
+  }
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 3em;
+
+  .frame-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .frame-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2em;
+  }
+}

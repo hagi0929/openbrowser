@@ -3,7 +3,7 @@ import styled from "styled-components";
 import "./header.scss"
 import LogoFull from "../../component/etc/logo";
 import Card from "../../style/Component.Style";
-import UserBadge from "../etc/module";
+import { UserBadge } from "../etc/module";
 
 // write styled component for header bar search bar
 
