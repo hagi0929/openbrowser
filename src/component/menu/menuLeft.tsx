@@ -11,7 +11,7 @@ function MenuLeft() {
         to="/home"
         className={({ isActive }) => {
           return (
-            "App-content__left__menu-bar__element" + (isActive ? " active" : "")
+            "App-content__left__menu-bar__element" + (isActive ? " active" : " not-active")
           );
         }}
       >
@@ -26,7 +26,7 @@ function MenuLeft() {
         to="/profile"
         className={({ isActive }) => {
           return (
-            "App-content__left__menu-bar__element" + (isActive ? " active" : "")
+            "App-content__left__menu-bar__element" + (isActive ? " active" : " not-active")
           );
         }}
       >
@@ -41,7 +41,7 @@ function MenuLeft() {
         to="/bookmarks"
         className={({ isActive }) => {
           return (
-            "App-content__left__menu-bar__element" + (isActive ? " active" : "")
+            "App-content__left__menu-bar__element" + (isActive ? " active" : " not-active")
           );
         }}
       >
@@ -58,7 +58,7 @@ function MenuLeft() {
         to="/settings"
         className={({ isActive }) => {
           return (
-            "App-content__left__menu-bar__element" + (isActive ? " active" : "")
+            "App-content__left__menu-bar__element" + (isActive ? " active" : " not-active")
           );
         }}
       >
