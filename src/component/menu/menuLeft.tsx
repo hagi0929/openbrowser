@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import "./menuLeft.scss";
 
+
 function MenuLeft() {
   return (
     <Card className={"App-content__left__menu-bar"}>
